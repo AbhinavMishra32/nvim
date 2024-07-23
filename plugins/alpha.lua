@@ -1,0 +1,17 @@
+-- return {
+--   "goolord/alpha-nvim",
+--   opts = function(_, opts)
+--     if not opts.section then
+--       opts.section = {}
+--     end
+--
+--     if not opts.section.header then
+--       opts.section.header = { type = "text", val = {} }
+--     end
+--
+--     local logo = [[
+-- EEEEEEEEE
+-- ]]
+--     opts.section.header.val = vim.split(logo, "\n", { trimempty = true })
+--   end,
+-- }
